@@ -118,7 +118,6 @@ class BaiduMusic :
 		#req.add_header('Cookie',urllib.urlencode(self.cookies))
 		page = urllib2.urlopen(req,urllib.urlencode(params))
 		c = page.read()
-		print c
 		#
 		
 	def search_download(self,key):
